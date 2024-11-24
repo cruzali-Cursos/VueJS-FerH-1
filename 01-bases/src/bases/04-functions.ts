@@ -29,3 +29,22 @@ console.log(getUser());
 const getUserDos = ( uid: string ) => ({uid: uid, username: 'Ali'});
 
 console.log(getUserDos('80802'));
+
+const heros = [
+  // Trailling comma
+  {
+    id: 1,
+    name: 'Batman',
+  },
+  {
+    id: 2,
+    name: 'Superman',
+    power: 'Fuerza',
+  },
+];
+
+const hero = heros.find( (h) => h.id === 1 );
+
+// null check
+console.log(hero?.power?.toUpperCase());
+
