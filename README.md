@@ -16,3 +16,8 @@ https://www.udemy.com/course/vuejs-fh/?couponCode=BFCPSALE24
   CompositionAPI
   VueX + TypeScript
   Rutas y lugares
+
+
+	#### Geolocalización
+		- navigator.geolocation
+		
